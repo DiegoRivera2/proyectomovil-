@@ -6,10 +6,10 @@ WORKDIR /usr/src/app
 
 COPY package*.json ./
 
-RUN npm intall
+RUN npm install
 
 COPY . .
 
 EXPOSE 3000
 
-CMD ["npm, start"]
+CMD ["npm", "start"]
